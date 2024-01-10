@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City" spellcheck="false">
+            <button><img src="Images/Search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="Images/Clouds.png" class="weather-icon">
+            <h1 class="temp" id="temp">22°C</h1>
+            <h2 class="city" id="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="Images/humid.png" >
+                    <div >
+                        <p class="humidity" id="humidity">50%</p>
+                        <p>Humdity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Images/humid.png" >
+                    <div >
+                        <p class="wind" id="wind">15 km/h</p>
+                        <p>Wind-Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
